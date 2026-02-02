@@ -482,7 +482,7 @@ with st.sidebar:
 # ──────────────────────────────────────────────
 if page == "📊 대시보드":
     st.markdown('<p class="main-header">Budget Dashboard</p>', unsafe_allow_html=True)
-    st.markdown('<p class="sub-header">찬양팀 예산 현황을 한눈에 확인하세요</p>', unsafe_allow_html=True)
+    st.markdown('<p class="sub-header">고등부 예산 현황을 한눈에 확인하세요</p>', unsafe_allow_html=True)
 
     df = load_transactions()
     budgets = load_budgets()
@@ -885,7 +885,7 @@ elif page == "📥 리포트 다운로드":
         st.download_button(
             label="📥 Excel 리포트 다운로드",
             data=excel_data,
-            file_name=f"찬양팀_예산리포트_{today}.xlsx",
+            file_name=f"고등부_예산리포트_{today}.xlsx",
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.officedocument",
             width="stretch",
         )
