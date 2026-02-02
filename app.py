@@ -460,7 +460,7 @@ def metric_card(label: str, value: str, color_class: str = "primary"):
 # SIDEBAR
 # ──────────────────────────────────────────────
 with st.sidebar:
-    st.markdown('<p class="main-header" style="font-size:1.6rem;">⛪ 찬양팀 예산</p>', unsafe_allow_html=True)
+    st.markdown('<p class="main-header" style="font-size:1.6rem;">⛪ 고등부 예산</p>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header" style="font-size:0.85rem;">Church Worship Team Budget</p>', unsafe_allow_html=True)
     st.divider()
 
